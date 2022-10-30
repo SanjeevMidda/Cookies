@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 200px;
+}
+
+.container{
+    display: flex;
+}
+
+.two{
+    padding-top: 40px;
+}
+
+.three{
+    padding-bottom: 10px;
+}
+
+.four{
+    padding-top: 100px;
+    /* border: 1px solid white; */
+}
+
+.five{
+    padding-top: 20px;
+}
+
+.six{
+    padding-bottom: 30px;
+}
+
+.seven{
+    padding-top: 40px;
+}
+
+.gradient{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background:linear-gradient(green,blue);
+    position: absolute;
+}
+
+.oneOne{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background:linear-gradient(yellow,pink);
+    position: absolute;
+}
